@@ -19,7 +19,8 @@ with st.sidebar: # Using slidbar for user inputs
     user_data["disease"] = st.selectbox("Disease:",["Select","Blood Cancer","Heart Attack","Depression","Diabetes"])
 
 # Displaying users information as a personalized dashboard
-st.image(r"C:\users\Kamlesh\Downloads\hackathon.jpg")
+
+st.image("hackathon.jpg")
 st.title("Pharmabot 🤖") 
 
 # Personalized greeting
